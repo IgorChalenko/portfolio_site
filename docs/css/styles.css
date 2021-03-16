@@ -10266,3 +10266,11 @@ form .row:first-child .floating-label-form-group {
 .button__link:hover {
   text-decoration: none;
 }
+.masthead-avatar {
+  background: url('../assets/img/avatar.jpg') no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  /* background-position: -190px -60px; */
+  width: 30vw;
+  height: 35vh;
+}

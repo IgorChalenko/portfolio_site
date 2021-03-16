@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>MyToDo</title>
+</head>
+<body>
+<!--Шапка сайта  -->
+    <header class="header">
+        <div class="logo">To<span>Do</span></div>
+<!-- Авторизация  -->
+        <div class="user_authorised hide">
+          <span class="user_name"></span>
+          <i class="fas fa-angle-down user_more"></i>
+          <i class="fas fa-user fa-2x user_icon"></i>
+        </div>
+<!--Авторизация  -->
+        <h1 class="header_head">твой список дел</h1>
+        <button class="header_button">начать</button>
+<!--Форма регистрации  -->
+        <div class="container form_container hide">
+            <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputEmail1" placeholder="" required>
+              <div class="lable_box">
+                <label for="exampleInputEmail1" class="form_lable">Логин</label>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="" required>
+              <div class="lable_box">
+                <label for="exampleInputPassword1" class="form_lable">Пароль</label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary form_btn" data-btn="Войти">Войти</button>
+            <button type="submit" class="btn btn-primary" data-btn="Зарегестрироваться">Зарегестрироваться</button>
+          </form>
+        </div>
+    </header>
+<!--Основная страница  -->
+    <main class="main-desk">
+<!-- Меню слева -->
+     <aside class="left-menu ">
+      <ul class="left-menu_list">
+        <div class="animate"><i class="far fa-calendar-check fa-lg"></i><li class="left-menu_list__item">Сегодня</li></div>
+        <div class="animate"><i class="far fa-calendar-alt fa-lg"></i><li class="left-menu_list__item">Завтра</li></div>
+        <div class="animate"><i class="far fa-calendar fa-lg"></i><li class="left-menu_list__item">Когда угодно</li></div>
+        <div class="animate"><i class="far fa-calendar-plus fa-lg"></i><li class="left-menu_list__item">Когда нибудь</li></div>
+        <div class="animate"><i class="far fa-calendar-times fa-lg"></i><li class="left-menu_list__item">Никогда</li></div>
+      </ul>
+<!-- Кнопка добавления списка дел -->
+      <button class="button_add hide"></button>
+     </aside>
+<!-- Центральная часть -->
+     <section class="center-menu">
+<!--Шапка центральной части и разделение по важности  -->
+       <div class="section_head">
+         <h2 class="section_head__header">Дела на сегодня</h2>
+       <ul class="nav-menu">
+         <li class="nav-menu_links active_link"><span class="nav-menu_count" id="all_bussines"></span>Все дела</li>
+         <li class="nav-menu_links"><span class="nav-menu_count" id="main_bussines"></span>Важные</li>
+         <li class="nav-menu_links "><span class="nav-menu_count" id="notes"></span>Заметки</li>
+       </ul>
+       </div>
+     </section>
+<!--Список дел  -->
+     <section class="content">
+        <ul class="content_list">
+          <!-- <li class="content_link">
+            <input type="checkbox" name="" id="item_1">
+            <label for="item_1" class="content_link__lable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quidem.</label>
+            <button class="content_link_button content_link_button--wait" disabled>В ожидании</button>
+          </li> -->
+          <li class="content_link">
+            <input type="checkbox" name="" id="item_2">
+            <label for="item_2" class="content_link__lable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, quidem.</label>
+            <button class="content_link_button content_link_button--in-progress">Выполняется</button>
+          </li>
+          <li class="content_link">
+            <input type="checkbox" name="" id="item_3">
+            <label for="item_3" class="content_link__lable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, beatae.</label>
+            <button class="content_link_button content_link_button--sucsess">Выполено</button>
+          </li>
+          <li class="content_link">
+            <input type="checkbox" name="" id="item_4">
+            <label for="item_4" class="content_link__lable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, beatae.</label>
+            <button class="content_link_button content_link_button--fail">Провалено</button>
+          </li>
+        </ul>
+     </section>
+    </main>
+    
+    <script src="./js/script.min.js"></script>
+</body>
+</html>

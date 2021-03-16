@@ -1,0 +1,36 @@
+@font-face {
+        font-family: 'Fascinate-Regular';
+        src: url('../fonts/Fascinate-Regular.ttf');
+        src: url('../fonts/Fascinate-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold.ttf');
+    src: url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Raleway-Light';
+    src: url('../fonts/Raleway-Light.ttf');
+    src: url('../fonts/Raleway-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Mediumd';
+    src: url('../fonts/Raleway-Medium.ttf');
+    src: url('../fonts/Raleway-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular.ttf');
+    src: url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Druk Cyr';
+    src: local('Druk Cyr Medium'), local('Druk-Cyr-Medium'),
+        url('DrukCyr-Medium.woff2') format('woff2'),
+        url('DrukCyr-Medium.woff') format('woff'),
+        url('DrukCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Druck Wide Bold';
+    src: local('Druck Wide Bold'),
+         url('DrukWideBold.otf') format('otf'),
+         url('DrukWide-Bold.eot') format('eot'),
+         url('DrukWideBold.woff') format('woff');
+    font-weight: 500;     
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('montserrat-v15-latin-regular.eot');
+    src: url('montserrat-v15-latin-regular.svg');
+    src: url('montserrat-v15-latin-regular.ttf');
+    src: url('montserrat-v15-latin-regular.woff');
+    src: url('montserrat-v15-latin-regular.woff2');
+}   
+@font-face{
+   font-family: 'DrukWide-Bold';
+   src: url('DrukCyr-Super.woff'); 
+}
+    
+    
+    
+    
